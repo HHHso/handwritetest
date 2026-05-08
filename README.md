@@ -18,17 +18,17 @@
 * **影像處理 (Image Processing)**: OpenCV (`opencv-python-headless`), NumPy
 * **機器學習 (Machine Learning)**: Scikit-Learn, Joblib
 
-## 📂 專案架構 (Project Structure)
 
-\`\`\`text
+### 📂 專案架構 (Project Structure)
+
+```text
 handwritetest/
 ├── templates/
-│   └── index.html             # 美觀的前端互動網頁
-├── app.py                     # Flask 後端主程式與 API 介面
-├── emnist_model.pkl           # 預先訓練好的字元辨識模型
-├── requirements.txt           # 系統環境依賴套件清單
-└── debug_img.png              # (執行時產生) 進入模型前的最終預處理影像，方便 Debug
-\`\`\`
+│   └── index.html        # 前端網頁
+├── app.py                # Flask 後端主程式
+├── emnist_model.pkl      # 預訓練模型
+├── requirements.txt      # 環境依賴清單
+└── debug_img.png         # (執行後產生) 除錯影像
 
 ## 🚀 本地端執行 (Local Setup)
 
